@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+WhatsApp UI Clone - Mobile App Development
+📱 Project Overview
+This repository contains a high-fidelity WhatsApp UI Clone built using React Native and Expo. This project was developed as part of Assignment #3 to demonstrate proficiency in screen navigation, component structure, and real-world UI replication.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The application replicates the core interface of WhatsApp, specifically focusing on the Android design language, including the signature teal header and swipable tab navigation.
 
-## Get started
+🚀 Features
+Three-Screen Architecture: Fully implemented Chats, Status, and Calls screens.
 
-1. Install dependencies
+Advanced Navigation: Utilizes @react-navigation/material-top-tabs for smooth swiping between screens.
 
-   ```bash
-   npm install
-   ```
+Professional UI Frame: The app is wrapped in a custom-styled Mobile Device Frame (including a notch and home indicator) for a high-end presentation.
 
-2. Start the app
+Reusable Components: Developed modular components such as ChatItem, WhatsAppHeader, and FAB (Floating Action Button) to ensure clean and maintainable code.
 
-   ```bash
-   npx expo start
-   ```
+Dynamic UI Elements: Includes unread message badges, online status indicators, and call type icons (incoming/missed).
 
-In the output, you'll find options to open the app in a
+🛠️ Technologies Used
+React Native (Frontend Framework)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Expo (Development Environment)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+React Navigation (Top Tab Navigator)
 
-## Get a fresh project
+Expo Vector Icons (MaterialCommunityIcons)
 
-When you're ready, run:
+React Native Safe Area Context (For notched display compatibility)
 
-```bash
-npm run reset-project
-```
+📸 Screen Breakdown
+Chats Screen: A list of recent conversations with timestamps and unread message counters.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Status Screen: View your own status and a categorized list of recent updates from contacts.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Calls Screen: A detailed log of incoming and outgoing calls with status indicators.
