@@ -32,3 +32,14 @@ Chats Screen: A list of recent conversations with timestamps and unread message 
 Status Screen: View your own status and a categorized list of recent updates from contacts.
 
 Calls Screen: A detailed log of incoming and outgoing calls with status indicators.
+
+## 📸 Screens
+
+### Chats Screen
+![Chats Screen](./images/chats.png.png)
+
+### Status Screen
+![Status Screen](./images/status.png.png)
+
+### Calls Screen
+![Calls Screen](./images/calls.png.png)
